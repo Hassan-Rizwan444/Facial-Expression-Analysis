@@ -1,0 +1,1252 @@
+2025-09-27 11:53:25,771 - INFO - Collected 3999 usable samples (out of 3999 stems).
+2025-09-27 11:53:27,432 - INFO - Collected 3999 usable samples (out of 3999 stems).
+2025-09-27 11:53:27,446 - INFO - ==== Running model: efficientnet_b0 ====
+2025-09-27 11:53:27,858 - INFO - [efficientnet_b0] Stage 1: head-only training
+2025-09-27 12:15:20,383 - INFO - Collected 3999 usable samples (out of 3999 stems).
+2025-09-27 12:15:20,385 - INFO - Caching images in RAM (this may use ~0.5-1.5GB depending on dataset).
+2025-09-27 12:16:26,538 - INFO - Collected 3999 usable samples (out of 3999 stems).
+2025-09-27 12:16:26,539 - INFO - Caching images in RAM (this may use ~0.5-1.5GB depending on dataset).
+2025-09-27 12:16:36,152 - INFO - ==== Running model: efficientnet_b0 ====
+2025-09-27 12:16:38,940 - INFO - [efficientnet_b0] Stage 1: head-only training
+2025-09-27 12:16:39,923 - ERROR - Training failed for efficientnet_b0: default_collate: batch must contain tensors, numpy arrays, numbers, dicts or lists; found <class 'NoneType'>
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 171, in collate
+    {
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 172, in <dictcomp>
+    key: collate(
+         ^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 240, in collate
+    raise TypeError(default_collate_err_msg_format.format(elem_type))
+TypeError: default_collate: batch must contain tensors, numpy arrays, numbers, dicts or lists; found <class 'NoneType'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 171, in collate
+    {
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 172, in <dictcomp>
+    key: collate(
+         ^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 191, in collate
+    return {
+           ^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 192, in <dictcomp>
+    key: collate([d[key] for d in batch], collate_fn_map=collate_fn_map)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 240, in collate
+    raise TypeError(default_collate_err_msg_format.format(elem_type))
+TypeError: default_collate: batch must contain tensors, numpy arrays, numbers, dicts or lists; found <class 'NoneType'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 171, in collate
+    {
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 172, in <dictcomp>
+    key: collate(
+         ^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 240, in collate
+    raise TypeError(default_collate_err_msg_format.format(elem_type))
+TypeError: default_collate: batch must contain tensors, numpy arrays, numbers, dicts or lists; found <class 'NoneType'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 171, in collate
+    {
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 172, in <dictcomp>
+    key: collate(
+         ^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 191, in collate
+    return {
+           ^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 192, in <dictcomp>
+    key: collate([d[key] for d in batch], collate_fn_map=collate_fn_map)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 191, in collate
+    return {
+           ^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 192, in <dictcomp>
+    key: collate([d[key] for d in batch], collate_fn_map=collate_fn_map)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 240, in collate
+    raise TypeError(default_collate_err_msg_format.format(elem_type))
+TypeError: default_collate: batch must contain tensors, numpy arrays, numbers, dicts or lists; found <class 'NoneType'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 171, in collate
+    {
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 172, in <dictcomp>
+    key: collate(
+         ^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 240, in collate
+    raise TypeError(default_collate_err_msg_format.format(elem_type))
+TypeError: default_collate: batch must contain tensors, numpy arrays, numbers, dicts or lists; found <class 'NoneType'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 171, in collate
+    {
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 172, in <dictcomp>
+    key: collate(
+         ^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 191, in collate
+    return {
+           ^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 192, in <dictcomp>
+    key: collate([d[key] for d in batch], collate_fn_map=collate_fn_map)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 240, in collate
+    raise TypeError(default_collate_err_msg_format.format(elem_type))
+TypeError: default_collate: batch must contain tensors, numpy arrays, numbers, dicts or lists; found <class 'NoneType'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 171, in collate
+    {
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 172, in <dictcomp>
+    key: collate(
+         ^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 240, in collate
+    raise TypeError(default_collate_err_msg_format.format(elem_type))
+TypeError: default_collate: batch must contain tensors, numpy arrays, numbers, dicts or lists; found <class 'NoneType'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Local\Temp\ipykernel_13316\2285803182.py", line 37, in <module>
+    trainer.train_stage(train_loader, val_loader)
+  File "C:\Users\DELL\AppData\Local\Temp\ipykernel_13316\2393043331.py", line 28, in train_stage
+    for batch in train_loader:
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\dataloader.py", line 733, in __next__
+    data = self._next_data()
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\dataloader.py", line 789, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\fetch.py", line 55, in fetch
+    return self.collate_fn(data)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 398, in default_collate
+    return collate(batch, collate_fn_map=default_collate_fn_map)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 191, in collate
+    return {
+           ^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 192, in <dictcomp>
+    key: collate([d[key] for d in batch], collate_fn_map=collate_fn_map)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 191, in collate
+    return {
+           ^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 192, in <dictcomp>
+    key: collate([d[key] for d in batch], collate_fn_map=collate_fn_map)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 191, in collate
+    return {
+           ^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 192, in <dictcomp>
+    key: collate([d[key] for d in batch], collate_fn_map=collate_fn_map)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 240, in collate
+    raise TypeError(default_collate_err_msg_format.format(elem_type))
+TypeError: default_collate: batch must contain tensors, numpy arrays, numbers, dicts or lists; found <class 'NoneType'>
+2025-09-27 12:16:40,139 - INFO - ==== Running model: resnet50 ====
+2025-09-27 12:16:40,142 - INFO - On CPU: replacing resnet50 with resnet18 for faster training.
+2025-09-27 12:16:56,501 - INFO - [resnet50] Stage 1: head-only training
+2025-09-27 12:16:56,866 - ERROR - Training failed for resnet50: default_collate: batch must contain tensors, numpy arrays, numbers, dicts or lists; found <class 'NoneType'>
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 171, in collate
+    {
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 172, in <dictcomp>
+    key: collate(
+         ^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 240, in collate
+    raise TypeError(default_collate_err_msg_format.format(elem_type))
+TypeError: default_collate: batch must contain tensors, numpy arrays, numbers, dicts or lists; found <class 'NoneType'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 171, in collate
+    {
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 172, in <dictcomp>
+    key: collate(
+         ^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 191, in collate
+    return {
+           ^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 192, in <dictcomp>
+    key: collate([d[key] for d in batch], collate_fn_map=collate_fn_map)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 240, in collate
+    raise TypeError(default_collate_err_msg_format.format(elem_type))
+TypeError: default_collate: batch must contain tensors, numpy arrays, numbers, dicts or lists; found <class 'NoneType'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 171, in collate
+    {
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 172, in <dictcomp>
+    key: collate(
+         ^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 240, in collate
+    raise TypeError(default_collate_err_msg_format.format(elem_type))
+TypeError: default_collate: batch must contain tensors, numpy arrays, numbers, dicts or lists; found <class 'NoneType'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 171, in collate
+    {
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 172, in <dictcomp>
+    key: collate(
+         ^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 191, in collate
+    return {
+           ^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 192, in <dictcomp>
+    key: collate([d[key] for d in batch], collate_fn_map=collate_fn_map)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 191, in collate
+    return {
+           ^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 192, in <dictcomp>
+    key: collate([d[key] for d in batch], collate_fn_map=collate_fn_map)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 240, in collate
+    raise TypeError(default_collate_err_msg_format.format(elem_type))
+TypeError: default_collate: batch must contain tensors, numpy arrays, numbers, dicts or lists; found <class 'NoneType'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 171, in collate
+    {
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 172, in <dictcomp>
+    key: collate(
+         ^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 240, in collate
+    raise TypeError(default_collate_err_msg_format.format(elem_type))
+TypeError: default_collate: batch must contain tensors, numpy arrays, numbers, dicts or lists; found <class 'NoneType'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 171, in collate
+    {
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 172, in <dictcomp>
+    key: collate(
+         ^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 191, in collate
+    return {
+           ^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 192, in <dictcomp>
+    key: collate([d[key] for d in batch], collate_fn_map=collate_fn_map)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 240, in collate
+    raise TypeError(default_collate_err_msg_format.format(elem_type))
+TypeError: default_collate: batch must contain tensors, numpy arrays, numbers, dicts or lists; found <class 'NoneType'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 171, in collate
+    {
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 172, in <dictcomp>
+    key: collate(
+         ^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 240, in collate
+    raise TypeError(default_collate_err_msg_format.format(elem_type))
+TypeError: default_collate: batch must contain tensors, numpy arrays, numbers, dicts or lists; found <class 'NoneType'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Local\Temp\ipykernel_13316\2285803182.py", line 37, in <module>
+    trainer.train_stage(train_loader, val_loader)
+  File "C:\Users\DELL\AppData\Local\Temp\ipykernel_13316\2393043331.py", line 28, in train_stage
+    for batch in train_loader:
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\dataloader.py", line 733, in __next__
+    data = self._next_data()
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\dataloader.py", line 789, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\fetch.py", line 55, in fetch
+    return self.collate_fn(data)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 398, in default_collate
+    return collate(batch, collate_fn_map=default_collate_fn_map)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 191, in collate
+    return {
+           ^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 192, in <dictcomp>
+    key: collate([d[key] for d in batch], collate_fn_map=collate_fn_map)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 191, in collate
+    return {
+           ^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 192, in <dictcomp>
+    key: collate([d[key] for d in batch], collate_fn_map=collate_fn_map)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 191, in collate
+    return {
+           ^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 192, in <dictcomp>
+    key: collate([d[key] for d in batch], collate_fn_map=collate_fn_map)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 240, in collate
+    raise TypeError(default_collate_err_msg_format.format(elem_type))
+TypeError: default_collate: batch must contain tensors, numpy arrays, numbers, dicts or lists; found <class 'NoneType'>
+2025-09-27 12:16:56,874 - WARNING - No models finished successfully — all_results is empty.
+2025-09-27 12:33:14,414 - INFO - Collected 3999 usable samples (out of 3999 stems).
+2025-09-27 12:33:14,416 - INFO - Caching images in RAM (this may use ~0.5-1.5GB depending on dataset).
+2025-09-27 12:33:25,254 - INFO - Collected 3999 usable samples (out of 3999 stems).
+2025-09-27 12:33:25,255 - INFO - Caching images in RAM (this may use ~0.5-1.5GB depending on dataset).
+2025-09-27 12:33:34,715 - ERROR - Sanity check on DataLoader failed: default_collate: batch must contain tensors, numpy arrays, numbers, dicts or lists; found <class 'NoneType'>
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 171, in collate
+    {
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 172, in <dictcomp>
+    key: collate(
+         ^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 240, in collate
+    raise TypeError(default_collate_err_msg_format.format(elem_type))
+TypeError: default_collate: batch must contain tensors, numpy arrays, numbers, dicts or lists; found <class 'NoneType'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 171, in collate
+    {
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 172, in <dictcomp>
+    key: collate(
+         ^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 191, in collate
+    return {
+           ^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 192, in <dictcomp>
+    key: collate([d[key] for d in batch], collate_fn_map=collate_fn_map)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 240, in collate
+    raise TypeError(default_collate_err_msg_format.format(elem_type))
+TypeError: default_collate: batch must contain tensors, numpy arrays, numbers, dicts or lists; found <class 'NoneType'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 171, in collate
+    {
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 172, in <dictcomp>
+    key: collate(
+         ^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 240, in collate
+    raise TypeError(default_collate_err_msg_format.format(elem_type))
+TypeError: default_collate: batch must contain tensors, numpy arrays, numbers, dicts or lists; found <class 'NoneType'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 171, in collate
+    {
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 172, in <dictcomp>
+    key: collate(
+         ^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 191, in collate
+    return {
+           ^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 192, in <dictcomp>
+    key: collate([d[key] for d in batch], collate_fn_map=collate_fn_map)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 191, in collate
+    return {
+           ^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 192, in <dictcomp>
+    key: collate([d[key] for d in batch], collate_fn_map=collate_fn_map)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 240, in collate
+    raise TypeError(default_collate_err_msg_format.format(elem_type))
+TypeError: default_collate: batch must contain tensors, numpy arrays, numbers, dicts or lists; found <class 'NoneType'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 171, in collate
+    {
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 172, in <dictcomp>
+    key: collate(
+         ^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 240, in collate
+    raise TypeError(default_collate_err_msg_format.format(elem_type))
+TypeError: default_collate: batch must contain tensors, numpy arrays, numbers, dicts or lists; found <class 'NoneType'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 171, in collate
+    {
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 172, in <dictcomp>
+    key: collate(
+         ^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 191, in collate
+    return {
+           ^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 192, in <dictcomp>
+    key: collate([d[key] for d in batch], collate_fn_map=collate_fn_map)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 240, in collate
+    raise TypeError(default_collate_err_msg_format.format(elem_type))
+TypeError: default_collate: batch must contain tensors, numpy arrays, numbers, dicts or lists; found <class 'NoneType'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 171, in collate
+    {
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 172, in <dictcomp>
+    key: collate(
+         ^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 240, in collate
+    raise TypeError(default_collate_err_msg_format.format(elem_type))
+TypeError: default_collate: batch must contain tensors, numpy arrays, numbers, dicts or lists; found <class 'NoneType'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Local\Temp\ipykernel_13316\1306686067.py", line 58, in <module>
+    batch = next(iter(train_loader))
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\dataloader.py", line 733, in __next__
+    data = self._next_data()
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\dataloader.py", line 789, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\fetch.py", line 55, in fetch
+    return self.collate_fn(data)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Temp\ipykernel_13316\1306686067.py", line 10, in collate_remove_none
+    return default_collate(batch)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 398, in default_collate
+    return collate(batch, collate_fn_map=default_collate_fn_map)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 191, in collate
+    return {
+           ^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 192, in <dictcomp>
+    key: collate([d[key] for d in batch], collate_fn_map=collate_fn_map)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 191, in collate
+    return {
+           ^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 192, in <dictcomp>
+    key: collate([d[key] for d in batch], collate_fn_map=collate_fn_map)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 191, in collate
+    return {
+           ^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 192, in <dictcomp>
+    key: collate([d[key] for d in batch], collate_fn_map=collate_fn_map)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 240, in collate
+    raise TypeError(default_collate_err_msg_format.format(elem_type))
+TypeError: default_collate: batch must contain tensors, numpy arrays, numbers, dicts or lists; found <class 'NoneType'>
+2025-09-27 12:33:34,724 - INFO - ==== Running model: efficientnet_b0 ====
+2025-09-27 12:33:36,644 - INFO - [efficientnet_b0] Stage 1: head-only training
+2025-09-27 12:33:37,090 - ERROR - Training failed for efficientnet_b0: default_collate: batch must contain tensors, numpy arrays, numbers, dicts or lists; found <class 'NoneType'>
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 171, in collate
+    {
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 172, in <dictcomp>
+    key: collate(
+         ^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 240, in collate
+    raise TypeError(default_collate_err_msg_format.format(elem_type))
+TypeError: default_collate: batch must contain tensors, numpy arrays, numbers, dicts or lists; found <class 'NoneType'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 171, in collate
+    {
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 172, in <dictcomp>
+    key: collate(
+         ^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 191, in collate
+    return {
+           ^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 192, in <dictcomp>
+    key: collate([d[key] for d in batch], collate_fn_map=collate_fn_map)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 240, in collate
+    raise TypeError(default_collate_err_msg_format.format(elem_type))
+TypeError: default_collate: batch must contain tensors, numpy arrays, numbers, dicts or lists; found <class 'NoneType'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 171, in collate
+    {
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 172, in <dictcomp>
+    key: collate(
+         ^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 240, in collate
+    raise TypeError(default_collate_err_msg_format.format(elem_type))
+TypeError: default_collate: batch must contain tensors, numpy arrays, numbers, dicts or lists; found <class 'NoneType'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 171, in collate
+    {
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 172, in <dictcomp>
+    key: collate(
+         ^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 191, in collate
+    return {
+           ^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 192, in <dictcomp>
+    key: collate([d[key] for d in batch], collate_fn_map=collate_fn_map)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 191, in collate
+    return {
+           ^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 192, in <dictcomp>
+    key: collate([d[key] for d in batch], collate_fn_map=collate_fn_map)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 240, in collate
+    raise TypeError(default_collate_err_msg_format.format(elem_type))
+TypeError: default_collate: batch must contain tensors, numpy arrays, numbers, dicts or lists; found <class 'NoneType'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 171, in collate
+    {
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 172, in <dictcomp>
+    key: collate(
+         ^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 240, in collate
+    raise TypeError(default_collate_err_msg_format.format(elem_type))
+TypeError: default_collate: batch must contain tensors, numpy arrays, numbers, dicts or lists; found <class 'NoneType'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 171, in collate
+    {
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 172, in <dictcomp>
+    key: collate(
+         ^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 191, in collate
+    return {
+           ^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 192, in <dictcomp>
+    key: collate([d[key] for d in batch], collate_fn_map=collate_fn_map)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 240, in collate
+    raise TypeError(default_collate_err_msg_format.format(elem_type))
+TypeError: default_collate: batch must contain tensors, numpy arrays, numbers, dicts or lists; found <class 'NoneType'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 171, in collate
+    {
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 172, in <dictcomp>
+    key: collate(
+         ^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 240, in collate
+    raise TypeError(default_collate_err_msg_format.format(elem_type))
+TypeError: default_collate: batch must contain tensors, numpy arrays, numbers, dicts or lists; found <class 'NoneType'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Local\Temp\ipykernel_13316\1306686067.py", line 79, in <module>
+    trainer.train_stage(train_loader, val_loader)
+  File "C:\Users\DELL\AppData\Local\Temp\ipykernel_13316\1905751997.py", line 96, in train_stage
+    for batch in train_loader:
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\dataloader.py", line 733, in __next__
+    data = self._next_data()
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\dataloader.py", line 789, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\fetch.py", line 55, in fetch
+    return self.collate_fn(data)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Temp\ipykernel_13316\1306686067.py", line 10, in collate_remove_none
+    return default_collate(batch)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 398, in default_collate
+    return collate(batch, collate_fn_map=default_collate_fn_map)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 191, in collate
+    return {
+           ^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 192, in <dictcomp>
+    key: collate([d[key] for d in batch], collate_fn_map=collate_fn_map)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 191, in collate
+    return {
+           ^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 192, in <dictcomp>
+    key: collate([d[key] for d in batch], collate_fn_map=collate_fn_map)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 191, in collate
+    return {
+           ^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 192, in <dictcomp>
+    key: collate([d[key] for d in batch], collate_fn_map=collate_fn_map)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 240, in collate
+    raise TypeError(default_collate_err_msg_format.format(elem_type))
+TypeError: default_collate: batch must contain tensors, numpy arrays, numbers, dicts or lists; found <class 'NoneType'>
+2025-09-27 12:33:37,098 - INFO - ==== Running model: resnet50 ====
+2025-09-27 12:33:37,100 - INFO - On CPU: replacing resnet50 with resnet18 for faster training.
+2025-09-27 12:33:37,484 - INFO - [resnet50] Stage 1: head-only training
+2025-09-27 12:33:37,962 - ERROR - Training failed for resnet50: default_collate: batch must contain tensors, numpy arrays, numbers, dicts or lists; found <class 'NoneType'>
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 171, in collate
+    {
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 172, in <dictcomp>
+    key: collate(
+         ^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 240, in collate
+    raise TypeError(default_collate_err_msg_format.format(elem_type))
+TypeError: default_collate: batch must contain tensors, numpy arrays, numbers, dicts or lists; found <class 'NoneType'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 171, in collate
+    {
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 172, in <dictcomp>
+    key: collate(
+         ^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 191, in collate
+    return {
+           ^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 192, in <dictcomp>
+    key: collate([d[key] for d in batch], collate_fn_map=collate_fn_map)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 240, in collate
+    raise TypeError(default_collate_err_msg_format.format(elem_type))
+TypeError: default_collate: batch must contain tensors, numpy arrays, numbers, dicts or lists; found <class 'NoneType'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 171, in collate
+    {
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 172, in <dictcomp>
+    key: collate(
+         ^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 240, in collate
+    raise TypeError(default_collate_err_msg_format.format(elem_type))
+TypeError: default_collate: batch must contain tensors, numpy arrays, numbers, dicts or lists; found <class 'NoneType'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 171, in collate
+    {
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 172, in <dictcomp>
+    key: collate(
+         ^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 191, in collate
+    return {
+           ^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 192, in <dictcomp>
+    key: collate([d[key] for d in batch], collate_fn_map=collate_fn_map)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 191, in collate
+    return {
+           ^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 192, in <dictcomp>
+    key: collate([d[key] for d in batch], collate_fn_map=collate_fn_map)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 240, in collate
+    raise TypeError(default_collate_err_msg_format.format(elem_type))
+TypeError: default_collate: batch must contain tensors, numpy arrays, numbers, dicts or lists; found <class 'NoneType'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 171, in collate
+    {
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 172, in <dictcomp>
+    key: collate(
+         ^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 240, in collate
+    raise TypeError(default_collate_err_msg_format.format(elem_type))
+TypeError: default_collate: batch must contain tensors, numpy arrays, numbers, dicts or lists; found <class 'NoneType'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 171, in collate
+    {
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 172, in <dictcomp>
+    key: collate(
+         ^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 191, in collate
+    return {
+           ^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 192, in <dictcomp>
+    key: collate([d[key] for d in batch], collate_fn_map=collate_fn_map)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 240, in collate
+    raise TypeError(default_collate_err_msg_format.format(elem_type))
+TypeError: default_collate: batch must contain tensors, numpy arrays, numbers, dicts or lists; found <class 'NoneType'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 171, in collate
+    {
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 172, in <dictcomp>
+    key: collate(
+         ^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 240, in collate
+    raise TypeError(default_collate_err_msg_format.format(elem_type))
+TypeError: default_collate: batch must contain tensors, numpy arrays, numbers, dicts or lists; found <class 'NoneType'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Local\Temp\ipykernel_13316\1306686067.py", line 79, in <module>
+    trainer.train_stage(train_loader, val_loader)
+  File "C:\Users\DELL\AppData\Local\Temp\ipykernel_13316\1905751997.py", line 96, in train_stage
+    for batch in train_loader:
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\dataloader.py", line 733, in __next__
+    data = self._next_data()
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\dataloader.py", line 789, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\fetch.py", line 55, in fetch
+    return self.collate_fn(data)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Temp\ipykernel_13316\1306686067.py", line 10, in collate_remove_none
+    return default_collate(batch)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 398, in default_collate
+    return collate(batch, collate_fn_map=default_collate_fn_map)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 191, in collate
+    return {
+           ^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 192, in <dictcomp>
+    key: collate([d[key] for d in batch], collate_fn_map=collate_fn_map)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 191, in collate
+    return {
+           ^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 192, in <dictcomp>
+    key: collate([d[key] for d in batch], collate_fn_map=collate_fn_map)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 191, in collate
+    return {
+           ^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 192, in <dictcomp>
+    key: collate([d[key] for d in batch], collate_fn_map=collate_fn_map)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 240, in collate
+    raise TypeError(default_collate_err_msg_format.format(elem_type))
+TypeError: default_collate: batch must contain tensors, numpy arrays, numbers, dicts or lists; found <class 'NoneType'>
+2025-09-27 12:33:37,971 - WARNING - No models finished successfully — all_results is empty.
+2025-09-27 12:38:25,648 - INFO - Collected 3999 usable samples (out of 3999 stems).
+2025-09-27 12:38:25,649 - INFO - Caching images in RAM (this may use ~0.5-1.5GB depending on dataset).
+2025-09-27 12:38:35,836 - INFO - Collected 3999 usable samples (out of 3999 stems).
+2025-09-27 12:38:35,836 - INFO - Caching images in RAM (this may use ~0.5-1.5GB depending on dataset).
+2025-09-27 12:38:45,570 - ERROR - Sanity check on DataLoader failed: default_collate: batch must contain tensors, numpy arrays, numbers, dicts or lists; found <class 'NoneType'>
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 171, in collate
+    {
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 172, in <dictcomp>
+    key: collate(
+         ^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 240, in collate
+    raise TypeError(default_collate_err_msg_format.format(elem_type))
+TypeError: default_collate: batch must contain tensors, numpy arrays, numbers, dicts or lists; found <class 'NoneType'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 171, in collate
+    {
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 172, in <dictcomp>
+    key: collate(
+         ^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 191, in collate
+    return {
+           ^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 192, in <dictcomp>
+    key: collate([d[key] for d in batch], collate_fn_map=collate_fn_map)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 240, in collate
+    raise TypeError(default_collate_err_msg_format.format(elem_type))
+TypeError: default_collate: batch must contain tensors, numpy arrays, numbers, dicts or lists; found <class 'NoneType'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 171, in collate
+    {
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 172, in <dictcomp>
+    key: collate(
+         ^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 240, in collate
+    raise TypeError(default_collate_err_msg_format.format(elem_type))
+TypeError: default_collate: batch must contain tensors, numpy arrays, numbers, dicts or lists; found <class 'NoneType'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 171, in collate
+    {
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 172, in <dictcomp>
+    key: collate(
+         ^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 191, in collate
+    return {
+           ^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 192, in <dictcomp>
+    key: collate([d[key] for d in batch], collate_fn_map=collate_fn_map)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 191, in collate
+    return {
+           ^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 192, in <dictcomp>
+    key: collate([d[key] for d in batch], collate_fn_map=collate_fn_map)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 240, in collate
+    raise TypeError(default_collate_err_msg_format.format(elem_type))
+TypeError: default_collate: batch must contain tensors, numpy arrays, numbers, dicts or lists; found <class 'NoneType'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 171, in collate
+    {
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 172, in <dictcomp>
+    key: collate(
+         ^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 240, in collate
+    raise TypeError(default_collate_err_msg_format.format(elem_type))
+TypeError: default_collate: batch must contain tensors, numpy arrays, numbers, dicts or lists; found <class 'NoneType'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 171, in collate
+    {
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 172, in <dictcomp>
+    key: collate(
+         ^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 191, in collate
+    return {
+           ^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 192, in <dictcomp>
+    key: collate([d[key] for d in batch], collate_fn_map=collate_fn_map)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 240, in collate
+    raise TypeError(default_collate_err_msg_format.format(elem_type))
+TypeError: default_collate: batch must contain tensors, numpy arrays, numbers, dicts or lists; found <class 'NoneType'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 171, in collate
+    {
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 172, in <dictcomp>
+    key: collate(
+         ^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 240, in collate
+    raise TypeError(default_collate_err_msg_format.format(elem_type))
+TypeError: default_collate: batch must contain tensors, numpy arrays, numbers, dicts or lists; found <class 'NoneType'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Local\Temp\ipykernel_13316\2296034014.py", line 81, in <module>
+    batch = next(iter(train_loader))
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\dataloader.py", line 733, in __next__
+    data = self._next_data()
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\dataloader.py", line 789, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\fetch.py", line 55, in fetch
+    return self.collate_fn(data)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Temp\ipykernel_13316\2296034014.py", line 34, in collate_remove_none_and_fix
+    return default_collate(cleaned)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 398, in default_collate
+    return collate(batch, collate_fn_map=default_collate_fn_map)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 191, in collate
+    return {
+           ^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 192, in <dictcomp>
+    key: collate([d[key] for d in batch], collate_fn_map=collate_fn_map)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 191, in collate
+    return {
+           ^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 192, in <dictcomp>
+    key: collate([d[key] for d in batch], collate_fn_map=collate_fn_map)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 191, in collate
+    return {
+           ^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 192, in <dictcomp>
+    key: collate([d[key] for d in batch], collate_fn_map=collate_fn_map)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 240, in collate
+    raise TypeError(default_collate_err_msg_format.format(elem_type))
+TypeError: default_collate: batch must contain tensors, numpy arrays, numbers, dicts or lists; found <class 'NoneType'>
+2025-09-27 12:38:45,582 - INFO - ==== Running model: efficientnet_b0 ====
+2025-09-27 12:38:45,971 - INFO - [efficientnet_b0] Stage 1: head-only training
+2025-09-27 12:38:46,072 - ERROR - Training failed for efficientnet_b0: default_collate: batch must contain tensors, numpy arrays, numbers, dicts or lists; found <class 'NoneType'>
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 171, in collate
+    {
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 172, in <dictcomp>
+    key: collate(
+         ^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 240, in collate
+    raise TypeError(default_collate_err_msg_format.format(elem_type))
+TypeError: default_collate: batch must contain tensors, numpy arrays, numbers, dicts or lists; found <class 'NoneType'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 171, in collate
+    {
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 172, in <dictcomp>
+    key: collate(
+         ^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 191, in collate
+    return {
+           ^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 192, in <dictcomp>
+    key: collate([d[key] for d in batch], collate_fn_map=collate_fn_map)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 240, in collate
+    raise TypeError(default_collate_err_msg_format.format(elem_type))
+TypeError: default_collate: batch must contain tensors, numpy arrays, numbers, dicts or lists; found <class 'NoneType'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 171, in collate
+    {
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 172, in <dictcomp>
+    key: collate(
+         ^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 240, in collate
+    raise TypeError(default_collate_err_msg_format.format(elem_type))
+TypeError: default_collate: batch must contain tensors, numpy arrays, numbers, dicts or lists; found <class 'NoneType'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 171, in collate
+    {
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 172, in <dictcomp>
+    key: collate(
+         ^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 191, in collate
+    return {
+           ^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 192, in <dictcomp>
+    key: collate([d[key] for d in batch], collate_fn_map=collate_fn_map)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 191, in collate
+    return {
+           ^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 192, in <dictcomp>
+    key: collate([d[key] for d in batch], collate_fn_map=collate_fn_map)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 240, in collate
+    raise TypeError(default_collate_err_msg_format.format(elem_type))
+TypeError: default_collate: batch must contain tensors, numpy arrays, numbers, dicts or lists; found <class 'NoneType'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 171, in collate
+    {
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 172, in <dictcomp>
+    key: collate(
+         ^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 240, in collate
+    raise TypeError(default_collate_err_msg_format.format(elem_type))
+TypeError: default_collate: batch must contain tensors, numpy arrays, numbers, dicts or lists; found <class 'NoneType'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 171, in collate
+    {
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 172, in <dictcomp>
+    key: collate(
+         ^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 191, in collate
+    return {
+           ^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 192, in <dictcomp>
+    key: collate([d[key] for d in batch], collate_fn_map=collate_fn_map)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 240, in collate
+    raise TypeError(default_collate_err_msg_format.format(elem_type))
+TypeError: default_collate: batch must contain tensors, numpy arrays, numbers, dicts or lists; found <class 'NoneType'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 171, in collate
+    {
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 172, in <dictcomp>
+    key: collate(
+         ^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 240, in collate
+    raise TypeError(default_collate_err_msg_format.format(elem_type))
+TypeError: default_collate: batch must contain tensors, numpy arrays, numbers, dicts or lists; found <class 'NoneType'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Local\Temp\ipykernel_13316\2296034014.py", line 102, in <module>
+    trainer.train_stage(train_loader, val_loader)
+  File "C:\Users\DELL\AppData\Local\Temp\ipykernel_13316\1905751997.py", line 96, in train_stage
+    for batch in train_loader:
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\dataloader.py", line 733, in __next__
+    data = self._next_data()
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\dataloader.py", line 789, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\fetch.py", line 55, in fetch
+    return self.collate_fn(data)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Temp\ipykernel_13316\2296034014.py", line 34, in collate_remove_none_and_fix
+    return default_collate(cleaned)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 398, in default_collate
+    return collate(batch, collate_fn_map=default_collate_fn_map)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 191, in collate
+    return {
+           ^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 192, in <dictcomp>
+    key: collate([d[key] for d in batch], collate_fn_map=collate_fn_map)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 191, in collate
+    return {
+           ^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 192, in <dictcomp>
+    key: collate([d[key] for d in batch], collate_fn_map=collate_fn_map)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 191, in collate
+    return {
+           ^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 192, in <dictcomp>
+    key: collate([d[key] for d in batch], collate_fn_map=collate_fn_map)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 240, in collate
+    raise TypeError(default_collate_err_msg_format.format(elem_type))
+TypeError: default_collate: batch must contain tensors, numpy arrays, numbers, dicts or lists; found <class 'NoneType'>
+2025-09-27 12:38:46,080 - INFO - ==== Running model: resnet50 ====
+2025-09-27 12:38:46,081 - INFO - On CPU: replacing resnet50 with resnet18 for faster training.
+2025-09-27 12:38:46,416 - INFO - [resnet50] Stage 1: head-only training
+2025-09-27 12:38:46,507 - ERROR - Training failed for resnet50: default_collate: batch must contain tensors, numpy arrays, numbers, dicts or lists; found <class 'NoneType'>
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 171, in collate
+    {
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 172, in <dictcomp>
+    key: collate(
+         ^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 240, in collate
+    raise TypeError(default_collate_err_msg_format.format(elem_type))
+TypeError: default_collate: batch must contain tensors, numpy arrays, numbers, dicts or lists; found <class 'NoneType'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 171, in collate
+    {
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 172, in <dictcomp>
+    key: collate(
+         ^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 191, in collate
+    return {
+           ^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 192, in <dictcomp>
+    key: collate([d[key] for d in batch], collate_fn_map=collate_fn_map)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 240, in collate
+    raise TypeError(default_collate_err_msg_format.format(elem_type))
+TypeError: default_collate: batch must contain tensors, numpy arrays, numbers, dicts or lists; found <class 'NoneType'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 171, in collate
+    {
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 172, in <dictcomp>
+    key: collate(
+         ^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 240, in collate
+    raise TypeError(default_collate_err_msg_format.format(elem_type))
+TypeError: default_collate: batch must contain tensors, numpy arrays, numbers, dicts or lists; found <class 'NoneType'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 171, in collate
+    {
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 172, in <dictcomp>
+    key: collate(
+         ^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 191, in collate
+    return {
+           ^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 192, in <dictcomp>
+    key: collate([d[key] for d in batch], collate_fn_map=collate_fn_map)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 191, in collate
+    return {
+           ^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 192, in <dictcomp>
+    key: collate([d[key] for d in batch], collate_fn_map=collate_fn_map)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 240, in collate
+    raise TypeError(default_collate_err_msg_format.format(elem_type))
+TypeError: default_collate: batch must contain tensors, numpy arrays, numbers, dicts or lists; found <class 'NoneType'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 171, in collate
+    {
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 172, in <dictcomp>
+    key: collate(
+         ^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 240, in collate
+    raise TypeError(default_collate_err_msg_format.format(elem_type))
+TypeError: default_collate: batch must contain tensors, numpy arrays, numbers, dicts or lists; found <class 'NoneType'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 171, in collate
+    {
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 172, in <dictcomp>
+    key: collate(
+         ^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 191, in collate
+    return {
+           ^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 192, in <dictcomp>
+    key: collate([d[key] for d in batch], collate_fn_map=collate_fn_map)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 240, in collate
+    raise TypeError(default_collate_err_msg_format.format(elem_type))
+TypeError: default_collate: batch must contain tensors, numpy arrays, numbers, dicts or lists; found <class 'NoneType'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 171, in collate
+    {
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 172, in <dictcomp>
+    key: collate(
+         ^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 240, in collate
+    raise TypeError(default_collate_err_msg_format.format(elem_type))
+TypeError: default_collate: batch must contain tensors, numpy arrays, numbers, dicts or lists; found <class 'NoneType'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Local\Temp\ipykernel_13316\2296034014.py", line 102, in <module>
+    trainer.train_stage(train_loader, val_loader)
+  File "C:\Users\DELL\AppData\Local\Temp\ipykernel_13316\1905751997.py", line 96, in train_stage
+    for batch in train_loader:
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\dataloader.py", line 733, in __next__
+    data = self._next_data()
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\dataloader.py", line 789, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\fetch.py", line 55, in fetch
+    return self.collate_fn(data)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Temp\ipykernel_13316\2296034014.py", line 34, in collate_remove_none_and_fix
+    return default_collate(cleaned)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 398, in default_collate
+    return collate(batch, collate_fn_map=default_collate_fn_map)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 191, in collate
+    return {
+           ^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 192, in <dictcomp>
+    key: collate([d[key] for d in batch], collate_fn_map=collate_fn_map)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 191, in collate
+    return {
+           ^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 192, in <dictcomp>
+    key: collate([d[key] for d in batch], collate_fn_map=collate_fn_map)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 191, in collate
+    return {
+           ^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 192, in <dictcomp>
+    key: collate([d[key] for d in batch], collate_fn_map=collate_fn_map)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Roaming\Python\Python311\site-packages\torch\utils\data\_utils\collate.py", line 240, in collate
+    raise TypeError(default_collate_err_msg_format.format(elem_type))
+TypeError: default_collate: batch must contain tensors, numpy arrays, numbers, dicts or lists; found <class 'NoneType'>
+2025-09-27 12:38:46,514 - WARNING - No models finished successfully — all_results is empty.
+2025-09-27 12:42:08,891 - INFO - Collected 3999 usable samples (out of 3999 stems).
+2025-09-27 12:42:08,892 - INFO - Caching images in RAM (this may use ~0.5-1.5GB depending on dataset).
+2025-09-27 12:51:03,691 - INFO - Caching images in RAM (this may use ~0.5-1.5GB depending on dataset).
+2025-09-27 15:59:46,381 - INFO - Caching images in RAM (this may use ~0.5-1.5GB depending on dataset).
+2025-09-27 15:59:53,214 - INFO - Train batch keys: image, expression, valence, arousal, indicator, stem
+2025-09-27 15:59:53,216 - INFO - image tensor shape: torch.Size([16, 3, 224, 224])
+2025-09-27 15:59:53,225 - INFO - expression batch sample (first 8): tensor([-1, -1, -1, -1, -1, -1, -1, -1])
+2025-09-27 15:59:53,244 - INFO - valence/arousal (first 8): tensor([-2., -2., -2., -2., -2., -2., -2., -2.]) / tensor([-2., -2., -2., -2., -2., -2., -2., -2.])
+2025-09-27 15:59:53,245 - INFO - ==== Running model: efficientnet_b0 ====
+2025-09-27 15:59:53,246 - ERROR - Training failed for efficientnet_b0: name 'Trainer' is not defined
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Local\Temp\ipykernel_7192\511122709.py", line 97, in <module>
+    trainer = Trainer(cfg, mname, DEVICE)
+              ^^^^^^^
+NameError: name 'Trainer' is not defined
+2025-09-27 15:59:53,248 - INFO - ==== Running model: resnet50 ====
+2025-09-27 15:59:53,250 - ERROR - Training failed for resnet50: name 'Trainer' is not defined
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Local\Temp\ipykernel_7192\511122709.py", line 97, in <module>
+    trainer = Trainer(cfg, mname, DEVICE)
+              ^^^^^^^
+NameError: name 'Trainer' is not defined
+2025-09-27 15:59:53,253 - WARNING - No models finished successfully — all_results is empty.
+2025-09-27 16:04:11,805 - INFO - Train batch keys: image, expression, valence, arousal, indicator, stem
+2025-09-27 16:04:11,806 - INFO - image tensor shape: torch.Size([16, 3, 224, 224])
+2025-09-27 16:04:11,808 - INFO - expression batch sample (first 8): tensor([-1, -1, -1, -1, -1, -1, -1, -1])
